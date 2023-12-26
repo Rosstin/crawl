@@ -1787,8 +1787,13 @@ _Amaemon_rare_
 @The_monster@ sings, "Eyes close, heart stop, nighty-night for you..."
 %%%%
 ############ ARACHNE ### Half-human half-spider
-## todo rosstin - what flavour for arachne? something clever 
 Arachne
+
+@The_monster@ says, "Spiders are so much easier to relate to than people."
+
+@The_monster@ says @to_foe@, "Join our spider family, @player_genus@."
+
+@The_monster@ flourishes @possessive@ weapon. "You'd like to get your hands on this, wouldn't you?"
 
 @The_monster@ says @to_foe@, "Come to my web."
 
@@ -1800,7 +1805,7 @@ Arachne
 %%%%
 Arachne triumphant
 
-@The_monster@ says, "All wrapped up."
+@The_monster@ dusts off @possessive@ many limbs. "All wrapped up."
 %%%%
 ############ ASTERION ### Minotaur of Makhleb
 Asterion
