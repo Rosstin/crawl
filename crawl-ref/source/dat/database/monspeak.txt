@@ -4107,6 +4107,27 @@ Edmund triumphant
 
 @The_monster@ whines, "They better pay attention to me now!"
 %%%%
+############ ENCHANTRESS ### Spriggan enchantress
+Enchantress
+
+@_Enchantress_common_@
+
+w:5
+@_Enchantress_rare_@
+%%%%
+_Enchantress_common_
+VISUAL:@The_monster@ foo.
+
+%%%%
+_Enchantress_rare_
+
+@The_monster@ screams @at_foe@, "foo"
+%%%%
+Enchantress triumphant
+
+@The_monster@ foo.
+## END Enchantress ##
+%%%%
 ############ ERICA ### A wild tempered adventuress
 Erica
 
