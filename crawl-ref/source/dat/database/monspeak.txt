@@ -1787,6 +1787,7 @@ _Amaemon_rare_
 @The_monster@ sings, "Eyes close, heart stop, nighty-night for you..."
 %%%%
 ############ ARACHNE ### Half-human half-spider
+## todo rosstin - what flavour for arachne? something clever 
 Arachne
 
 @The_monster@ says @to_foe@, "Come to my web."
