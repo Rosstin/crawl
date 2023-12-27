@@ -1808,10 +1808,14 @@ VISUAL:@The_monster@'s spinneret quivers with excitement.
 @The_monster@ says @to_foe@, "You'll find yourself a bit attached to my weave."
 
 @The_monster@ says @to_foe@, "No one escapes my webs."
-%%%%
-Formicid Arachne
 
-@The_monster@ says, "You @player_genus_plural@ are always getting in the way of us spiders."
+@The_monster@ says @to_foe@, "{{
+    if you.race() == "Formicid" then
+        return "No one understands us spiders, not even you @player_genus_plural@."
+    else
+        return "No one understands us spiders. We just want to express ourselves."
+    end
+}}"
 %%%%
 Arachne triumphant
 
@@ -4107,7 +4111,7 @@ Edmund triumphant
 
 @The_monster@ whines, "They better pay attention to me now!"
 %%%%
-############ ENCHANTRESS ### Spriggan enchantress
+############ ENCHANTRESS ### Spriggan enchantress, Queen of Spriggans
 Enchantress
 
 @_Enchantress_common_@
@@ -4116,16 +4120,33 @@ w:5
 @_Enchantress_rare_@
 %%%%
 _Enchantress_common_
-VISUAL:@The_monster@ foo.
+VISUAL:@The_monster@'s dragon skin armour shimmers.
 
+@The_monster@ says @to_foe@, "You won't even be able to hit us."
+
+@The_monster@ says @to_foe@, "You can't run from us, @player_genus@."
+
+@The_monster@ says @to_foe@, "I will lead my people into a new era."
+
+@The_monster@ says @to_foe@, "Your will is weak, @player_genus@. Leave this place."
 %%%%
 _Enchantress_rare_
 
-@The_monster@ screams @at_foe@, "foo"
+@The_monster@ says @to_foe@, "It's the fault of you outsiders that faerie dragons are extinct."
+
+@The_monster@ says @to_foe@, "Give Kirke my regards."
+
+@The_monster@ says @to_foe@, "{{
+    if you.race() == "Spriggan" then
+        return "Submit to your queen."
+    else
+        return "There's no place for you here, @player_genus@."
+    end
+}}"
 %%%%
 Enchantress triumphant
 
-@The_monster@ foo.
+@The_monster@ says, "This is a victory not only for myself, but for all spriggans."
 ## END Enchantress ##
 %%%%
 ############ ERICA ### A wild tempered adventuress
