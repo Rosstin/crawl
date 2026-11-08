@@ -1451,6 +1451,7 @@ w:2
 Xom draws the Minefield card.
 ######################################
 # Miscellaneous god messages.
+# this is where to add god pray messages 
 ######################################
 %%%%
 recite_closure

@@ -235,6 +235,8 @@ void try_god_conversion(god_type god)
     }
     else
     {
+		// this is where we can print messages specific to your god 
+		
         // Already worshipping this god - just print a message.
         mprf(MSGCH_GOD, "You offer a %sprayer to %s.",
              you.cannot_speak() ? "silent " : "",
