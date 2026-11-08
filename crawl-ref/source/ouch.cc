@@ -1267,6 +1267,8 @@ static void _triumphant_mons_speech(actor *killer)
         mons_speaks(mon);  // They killed you and they meant to.
 }
 
+
+// god death message switch statement here
 static void _god_death_messages(kill_method_type death_type,
                                 const actor *killer)
 {
