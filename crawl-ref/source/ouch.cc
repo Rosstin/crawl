@@ -1268,7 +1268,7 @@ static void _triumphant_mons_speech(actor *killer)
 }
 
 
-// god death message switch statement here
+
 static void _god_death_messages(kill_method_type death_type,
                                 const actor *killer)
 {

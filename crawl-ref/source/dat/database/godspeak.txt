@@ -1451,7 +1451,6 @@ w:2
 Xom draws the Minefield card.
 ######################################
 # Miscellaneous god messages.
-# this is where to add god pray messages 
 ######################################
 %%%%
 recite_closure
@@ -1509,6 +1508,41 @@ w:40
 
 w:5
 "Everything deserves to die!"
+
+
+
+
+######################################
+# God pray messages
+######################################
+%%%%
+Ashenzari pray
+
+You mediate on the difference between things seen and unseen.
+
+You try to imagine Ashenzari shackled to the sky, but only give yourself a headache.
+
+%%%%
+Cheibriados pray
+You meditate at the altar for what feels like an eternity.
+
+%%%%
+Gozag pray
+You take a moment to reverently tally your expenditures.
+
+%%%%
+Hepliaklqana pray
+You utter a prayer of thanks to your ancestors.
+
+%%%%
+Lugonu pray
+You gaze into the altar... and the altar gazes back!
+
+%%%%
+Xom pray
+You mumble a word of thanks. In the distance, you hear Xom's maniacal laughter.
+
+
 %%%%
 ######################################
 # Welcome messages on game restoration
