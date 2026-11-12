@@ -237,19 +237,19 @@ void try_god_conversion(god_type god)
     {
         // Already worshipping this god - just print a message.
 		
-		string key = god_name(you.religion) + " pray";
+		//string key = god_name(you.religion) + " pray";
 
 		// Look for a pray string like 'ashenzari pray'.
 		// If that doesn't produce anything, fall back to 'you offer a prayer to so-and-so'.
-		result = getSpeakString(key);
-		if (!result.empty())
-			mprf(MSGCH_GOD, result.c_str());
-		else
-		{
+		//string result = getSpeakString(key);
+		//if (!result.empty())
+		//	mprf(MSGCH_GOD, "result");
+		//else
+		//{
 			mprf(MSGCH_GOD, "You offer a %sprayer to %s.",
 				 you.cannot_speak() ? "silent " : "",
 				 god_name(god).c_str());
-		}
+		//}
 		
     }
 }
